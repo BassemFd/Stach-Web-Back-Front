@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcrypt');
 const uid2 = require('uid2');
 const { signUpValidation, signInValidation } = require('../validation');
 const UserModel = require('../models/users');
