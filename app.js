@@ -21,8 +21,6 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, 'reactapp/build')));
 
-
-
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
