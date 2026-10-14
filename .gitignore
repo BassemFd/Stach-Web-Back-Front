@@ -2,3 +2,7 @@
 
 # dependencies
 *node_modules/*
+
+# root build/ was a stray copy; the app serves reactapp/build
+/build/
+node_modules/
